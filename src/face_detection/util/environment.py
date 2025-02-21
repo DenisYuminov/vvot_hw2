@@ -1,0 +1,6 @@
+from os import getenv
+
+PHOTOS_BUCKET = getenv("PHOTOS_BUCKET")
+MESSAGE_QUEUE_URL = getenv("MESSAGE_QUEUE_URL")
+ACCESS_KEY = getenv("ACCESS_KEY")
+SECRET_KEY = getenv("SECRET_KEY")
